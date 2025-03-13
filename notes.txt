@@ -1,0 +1,11 @@
+# Thoughts and research
+
+## The challenge:
+- Research to know the best HTML semantic element for each content of the website recipe.
+- Build the website to match as much as possible to design.
+- Learn how to use the GSAP library and smooth scrolling.  
+
+## Research:
+- Tips of HTML semantic elements: [https://www.youtube.com/watch?v=kX3TfdUqpuU&pp=ygUldGhlIHVzZSBjYXNlIG9mIGh0bWwgc2VtYW50aWMgZWxlbWVudNIHCQlFCQGHKiGM7w%3D%3D]
+
+- Use Locomotive Scroll for smooth scrolling: [https://www.youtube.com/watch?v=zrM6N-G6U_M&t]
