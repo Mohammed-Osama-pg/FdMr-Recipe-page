@@ -41,8 +41,32 @@ h4,
 h5,
 h6 {
   font-family: var(--font-title);
+  font-weight: normal;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+  position: relative;
+}
+ul li .point {
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: calc(100% + 16px);
+}
+
+ul li .point span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--rose-800);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
