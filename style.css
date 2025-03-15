@@ -181,6 +181,7 @@ main {
   }
   .hero__img {
     overflow: hidden;
+    height: 300px;
     border-radius: 12px;
   }
   .hero__content {
@@ -189,5 +190,17 @@ main {
   }
   .title__h1 {
     font-size: 40px;
+  }
+}
+
+@media (min-width: 1365px) {
+  .hero {
+    max-width: 736px;
+  }
+  .hero__content {
+    align-items: flex-start;
+  }
+  .nutrition__table th {
+    width: calc(32px + 288px);
   }
 }
