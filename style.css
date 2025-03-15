@@ -82,3 +82,35 @@ s .title__pg {
   line-height: 150%;
   margin-left: 40px;
 }
+
+.instructions__h2 {
+  font-size: 28px;
+  line-height: 1;
+  color: var(--brown-800);
+  margin-bottom: 24px;
+}
+
+.instructions__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.instructions__list li {
+  color: var(--stone-600);
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 40px;
+}
+.instructions__list li .point span {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  font-weight: bold;
+  color: var(--brown-800);
+}
