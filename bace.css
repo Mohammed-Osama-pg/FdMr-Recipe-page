@@ -70,3 +70,8 @@ ul li .point span {
   left: 0;
   transform: translateY(-50%);
 }
+
+hr {
+  border-color: var(--stone-150);
+  width: 100%;
+}
