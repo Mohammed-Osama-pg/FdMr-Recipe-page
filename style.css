@@ -30,9 +30,57 @@
   line-height: 1;
   margin-bottom: 24px;
 }
-
-.title__pg {
+s .title__pg {
   font-size: 16px;
   line-height: 150%;
-  color: var(--Stone-600);
+  color: var(--stone-600);
+}
+
+.preparation {
+  background-color: var(--rose-50);
+  width: 100%;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+.preparation__h3 {
+  font-family: "outfit";
+  font-size: 20px;
+  line-height: 1;
+  color: var(--rose-800);
+  font-weight: 600;
+}
+.prepartion__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.prepartion__list li {
+  color: var(--stone-600);
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 40px;
+  position: relative;
+}
+.prepartion__list li .point {
+  width: 16px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: calc(100% + 16px);
+}
+.prepartion__list li .point span {
+  display: block;
+  width: 4px;
+  height: 4px;
+  background-color: var(--rose-800);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
