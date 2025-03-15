@@ -2,6 +2,7 @@
   /* !---- fonts ------- */
   --font-body: "Outfit";
   --font-title: "Young Serif";
+
   /* !---- colors ------- */
   --color-White: hsl(0, 0%, 100%);
 
@@ -29,6 +30,8 @@ html {
 
 body {
   font-family: var(--font-body);
+  background-color: var(--Stone-100);
+  min-height: 100vh;
 }
 
 h1,
