@@ -1,3 +1,11 @@
+main {
+  width: 100%;
+  height: 100%;
+  background-color: var(--stone-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .hero {
   width: 100%;
   background-color: var(--color-White);
@@ -29,7 +37,7 @@
   line-height: 1;
   margin-bottom: 24px;
 }
-s .title__pg {
+.title__pg {
   font-size: 16px;
   line-height: 150%;
   color: var(--stone-600);
@@ -159,4 +167,27 @@ s .title__pg {
 .nutrition__table tr:last-child td {
   padding-bottom: 0;
   border-bottom: none;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 128px 48px;
+  }
+
+  .hero {
+    max-width: 616px;
+    padding: 40px;
+    border-radius: 24px;
+  }
+  .hero__img {
+    overflow: hidden;
+    border-radius: 12px;
+  }
+  .hero__content {
+    margin-top: 40px;
+    padding: 0;
+  }
+  .title__h1 {
+    font-size: 40px;
+  }
 }
